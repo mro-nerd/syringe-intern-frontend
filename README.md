@@ -150,14 +150,6 @@ The output folder (`dist`) can be hosted directly on static providers like Verce
 
 ---
 
-## 🐛 Troubleshooting & FAQ
-
-#### Q: Vite crashes during `npm run dev` with a PostCSS lookup error?
-*   **Reason:** If you don't have a local PostCSS configuration, Vite walks up your system folders (e.g. into your `Downloads` directory) searching for a `postcss.config` file. If it finds one configured with a plugin like Tailwind (and Tailwind isn't installed in this project), it will crash.
-*   **Solution:** We created an empty [postcss.config.js](file:///d:/Downloads/cyringe/syringe-intern-frontend/postcss.config.js) in the project root. This tells PostCSS to stop scanning and prevents lookup errors.
-
----
-
 ## 📄 License
 
 Distributed under the ISC License. See `package.json` for details.
