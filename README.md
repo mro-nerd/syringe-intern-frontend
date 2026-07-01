@@ -1,6 +1,8 @@
 # syringe-intern-frontend
 
 > **Frontend Dashboard** for the Syringe.ai Intern Assignment — a responsive, high-performance React + Vite dashboard designed to interact with the asynchronous task processing backend.
+![frontend dashboard](image.png)
+![System Architecture Diagram](./architecture.png)
 
 ---
 
